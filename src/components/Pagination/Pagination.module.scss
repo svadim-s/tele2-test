@@ -1,0 +1,22 @@
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.pageItem {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: blue;
+  color: #fff;
+}

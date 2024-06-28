@@ -1,0 +1,21 @@
+.CardList {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 650px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
